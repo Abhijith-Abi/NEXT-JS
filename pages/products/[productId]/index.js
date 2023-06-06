@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 
 function PoroductIdPage() {
     const router = useRouter();
-    const productId = router.query.podectId;
+    const productId = router.query.productId;
 
     return (
         <>
